@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Exam Results</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<nav class="bg-blue-700 p-4 text-white">
+  <a href="index.html">? Back to Home</a>
+</nav>
+
+<section class="p-10 text-center">
+  <h2 class="text-3xl font-bold mb-6">Check Exam Results</h2>
+
+  <input type="text" placeholder="Enter Index Number"
+    class="border p-2 rounded w-64">
+  <button onclick="checkResult()"
+    class="bg-blue-600 text-white px-4 py-2 rounded ml-2">
+    Search
+  </button>
+
+  <p id="resultMessage" class="mt-6 text-xl font-bold"></p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
